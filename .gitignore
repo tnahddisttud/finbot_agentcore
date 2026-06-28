@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets — never commit API keys
+.env
+
+# Local agent memory database
+*.db
+
+# Bedrock AgentCore build artifacts + deploy config (account IDs, ARNs, local paths)
+.bedrock_agentcore/
+.bedrock_agentcore.yaml
